@@ -308,7 +308,7 @@ p {
 
 @media only screen and (min-width: 760px) {
     .intro .title {
-        max-width: 60%;
+        max-width: 55%;
     }
     .intro .title p {
         font-size: 38px;
