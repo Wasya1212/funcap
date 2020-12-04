@@ -306,6 +306,13 @@ p {
     line-height: 38px;
 }
 
+.intro .free-trial-btn {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 @media only screen and (min-width: 760px) {
     .intro .title {
         max-width: 55%;
