@@ -320,12 +320,14 @@ p {
     .intro {
         align-items: flex-start;
         position: unset;
+        min-height: 45vh;
     }
     .intro::before {
-        height: 75vh;
+        height: 65vh;
     }
     .intro .title {
         text-align: left;
+        margin-top: 6rem;
     }
     .intro .title p {
         font-size: 48px;
@@ -409,6 +411,8 @@ p {
         max-width: none;
         padding-left: 6rem;
         padding-right: calc((100% - 1200px) / 2 + 3rem);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
         grid-gap: 4rem;
     }
 }
@@ -448,7 +452,7 @@ p {
 
 @media only screen and (min-width: 1150px) {
     .platform-description {
-        margin: 4rem calc(5%) 4rem calc((100% - 1200px) / 2 + 2rem);
+        margin: 6rem calc(5%) 6rem calc((100% - 1200px) / 2 + 2rem);
         padding: 0;
         grid-gap: 0;
     }
