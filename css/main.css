@@ -415,6 +415,10 @@ p {
         padding-bottom: 4rem;
         grid-gap: 4rem;
     }
+    .services header {
+        margin-bottom: 2rem;
+        text-align: left;
+    }
 }
 
 /* PLATFORM */
